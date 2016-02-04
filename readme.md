@@ -8,8 +8,7 @@ Simple **python** 3 module/api to detect **linux distribution**.
     * Install from source/git
     * Step by step example
 
-#under construnction wait a few hours
-
+#please wait docuemnt under construnction wait a few hours
 ##Install On Linux  
 ```sh
 sudo pip3 install detect_linux_distro
@@ -17,14 +16,17 @@ sudo pip3 install detect_linux_distro
 
 ##Example  
 ```sh
-from detect_linux_distro.detect_linux_distro import detect_linux_distro
-print( 'g= ' + str(byte_to_humanity.byteto(314575262000000, 'g') ) )
+d = detect_linux_distro()
+d.detect()
+print(d.get_distro_name())
+print(d.get_distro_id())
 ```
 
 ##More
 ###Install from source/git
 ```sh
-git clone
+git clone "https://github.com/mlibre/detect_linux_distro.git"
+cd
 ```
 ###Step by step example
     0 - open terminal
@@ -32,14 +34,15 @@ git clone
         touch test.py
 
     2 - copy and past this code on test.py:
-
-        from byte_to_humanity.byte_to_humanity import byteto
-        print( 'g= ' + str(byte_to_humanity.byteto(314575262000000, 'g') ) )
-
-    4 - run code:
+        d = detect_linux_distro()
+        d.detect()
+        print(d.get_distro_name())
+        print(d.get_distro_id())
+       
+    3 - run code:
         python3 test.py
 
-    5 - good luck.
+    4 - good luck.
 
 ##It's tested on this distribution:
 * arch

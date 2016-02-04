@@ -8,6 +8,8 @@ Simple **python** 3 module/api to detect **linux distribution**.
     * Install from source/git
     * Step by step example
 
+#under construnction wait a few hours
+
 ##Install On Linux  
 ```sh
 sudo pip3 install detect_linux_distro

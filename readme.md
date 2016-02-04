@@ -1,7 +1,7 @@
 #Detect linux distribution
 Simple **python** 3 module/api to detect **linux distribution**.
 
-##section
+##sections
 * Install On Linux
 * Example
 * More

@@ -23,7 +23,7 @@ class detect_linux_distro():
             return -1
         if return_all == 0:
             return self.name[0]
-        else:
+        elif return_all == 1:
             return self.name
 
     def get_distro_id(self , return_all = 0):
@@ -39,7 +39,7 @@ class detect_linux_distro():
             return -1
         if return_all == 0:
             return self.id[0]
-        else:
+        elif return_all == 1:
             return self.id
 
     def get_distro_pretty_name(self , return_all = 0):
@@ -55,7 +55,7 @@ class detect_linux_distro():
             return -1
         if return_all == 0:
             return self.pretty_name[0]
-        else:
+        elif return_all == 1:
             return self.pretty_name
 
     def find_release_files_in_etc(self):
@@ -97,11 +97,5 @@ class detect_linux_distro():
         print("All pretty name that I found for you: ")
         for pretty_name in self.pretty_name:
             print(pretty_name)
-
-
-d = detect_linux_distro()
-d.detect()
-print(d.get_distro_name())
-print(d.get_distro_id())
 
 # todo: if relase file not found work with => cat /etc/issue | head -n +1 | awk '{print $1}'

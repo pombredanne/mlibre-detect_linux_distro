@@ -4,3 +4,5 @@ readme
 setup.py
 detect_linux_distro/__init__.py
 detect_linux_distro/dld.py
+detect_linux_distro/__pycache__/__init__.cpython-35.pyc
+detect_linux_distro/__pycache__/dld.cpython-35.pyc

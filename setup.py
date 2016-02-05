@@ -8,7 +8,7 @@ def read(file_name):
 
 setup(
 	name = "detect_linux_distro",
-	version = "0.4",
+	version = "0.5",
 	author_email = "m.gh@linuxmail.org",
 	description = "Detect linux distribution",
 	long_description = read("readme"),

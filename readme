@@ -20,7 +20,9 @@ sudo pip3 install detect_linux_distro
 from detect_linux_distro.dld import dld
 my_linux_name = dld()
 my_linux_name.detect()
+
 my_linux_name.print_all_result()
+
 #my_linux_name.get_distro_id()
 #my_linux_name.print_all_result()
 ~~~
@@ -29,7 +31,8 @@ my_linux_name.print_all_result()
 ###Install from source/git
 ~~~sh
 git clone "https://github.com/mlibre/detect_linux_distro.git"
-cd
+cd detect_linux_distro/
+sudo python setup.py install
 ~~~
 
 ###Step by step example

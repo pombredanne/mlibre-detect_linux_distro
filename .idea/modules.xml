@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/clean_previuos_rpm_deb_cache.iml" filepath="$PROJECT_DIR$/.idea/clean_previuos_rpm_deb_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/detect_linux_distro.iml" filepath="$PROJECT_DIR$/.idea/detect_linux_distro.iml" />
     </modules>
   </component>
 </project>

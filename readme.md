@@ -36,27 +36,31 @@ sudo python setup.py install
 ~~~
 
 ###Step by step example
-    0 - open terminal
-    1 - create a file like test.py on your linux.
-        touch test.py
-
-    2 - copy and past this code in test.py:
-        
-        from detect_linux_distro.dld import dld
-        my_linux_name = dld()
-        my_linux_name.detect()
-        my_linux_name.print_all_result()
-        #my_linux_name.get_distro_id()
-        #my_linux_name.print_all_result()
-       
-    3 - run code:
-        python3 test.py
-        or
-        python test.py
-
-    4 - good luck.
-
-##It's tested on this distribution:
+1. open terminal
+2. create a file like test.py on your linux
+~~~bash
+    touch test.py
+~~~
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. copy and past this code in test.py
+~~~python
+    from detect_linux_distro.dld import dld
+    my_linux_name = dld()
+    my_linux_name.detect()
+    
+    my_linux_name.print_all_result()
+    
+    #my_linux_name.get_distro_id()
+    #my_linux_name.print_all_result()
+~~~
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. run code
+~~~python
+    python3 test.py
+~~~
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
+~~~python
+    python test.py
+~~~
+##It's tested on these distributions:
 * arch
 
 >note: probably it's work on all distribution, but i don't test.

@@ -1,7 +1,7 @@
 from os import listdir
 
 class dld():
-    """Detect linux distribution python module"""
+    """Detect Linux distribution python module"""
     name = []
     id = []
     pretty_name = []

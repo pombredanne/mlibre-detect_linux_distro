@@ -1,5 +1,5 @@
-#Detect linux distribution
-Simple **python** 3 module/api to detect **linux distribution**.
+#Detect Linux distribution
+Simple **python** 3 module/api to detect **Linux distribution**.
 
 ##Table Of contents
 * Install On Linux
@@ -7,6 +7,7 @@ Simple **python** 3 module/api to detect **linux distribution**.
 * More
     * Install from source/git
     * Step By Step example
+* Tested Distributions
 
 ##Install On Linux
 ~~~bash
@@ -41,7 +42,7 @@ sudo python setup.py install
 
 ###Step by step example
 1. open terminal
-2. create a file like test.py on your linux
+2. create a file like test.py on your Linux
 ~~~bash
     touch test.py
 ~~~
@@ -66,7 +67,7 @@ sudo python setup.py install
 ~~~python
     python test.py
 ~~~
-##It's tested on these distributions
+##Tested Distributions
 * arch
 
 >note: probably it's work on all distribution, but i don't test.

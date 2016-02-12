@@ -98,4 +98,4 @@ class dld():
         for pretty_name in self.pretty_name:
             print(pretty_name)
 
-# todo: if relase file not found work with => cat /etc/issue | head -n +1 | awk '{print $1}'
+# todo: if release file not found work with => cat /etc/issue | head -n +1 | awk '{print $1}'

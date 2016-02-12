@@ -12,7 +12,7 @@ Simple **python** 3 module/api to detect **linux distribution**.
 ~~~bash
 sudo pip install detect_linux_distro
 ~~~
-or
+&nbsp;&nbsp;&nbsp;&nbsp;or
 ~~~bash
 sudo pip3 install detect_linux_distro
 ~~~

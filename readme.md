@@ -26,12 +26,14 @@ my_linux_name.detect()
 my_linux_name.print_all_result()
 
 #my_linux_name.get_distro_id()
+#my_linux_name.get_distro_name()
+#my_linux_name.get_distro_pretty_name()
 #my_linux_name.print_all_result()
 ~~~
 
 ##More
 ###Install from source/git
-~~~sh
+~~~bash
 git clone "https://github.com/mlibre/detect_linux_distro.git"
 cd detect_linux_distro/
 sudo python setup.py install
@@ -48,10 +50,12 @@ sudo python setup.py install
     from detect_linux_distro.dld import dld
     my_linux_name = dld()
     my_linux_name.detect()
-    
+
     my_linux_name.print_all_result()
-    
+
     #my_linux_name.get_distro_id()
+    #my_linux_name.get_distro_name()
+    #my_linux_name.get_distro_pretty_name()
     #my_linux_name.print_all_result()
 ~~~
 &nbsp;&nbsp;&nbsp;&nbsp;4. run code
@@ -62,7 +66,7 @@ sudo python setup.py install
 ~~~python
     python test.py
 ~~~
-##It's tested on these distributions:
+##It's tested on these distributions
 * arch
 
 >note: probably it's work on all distribution, but i don't test.

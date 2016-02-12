@@ -15,15 +15,16 @@ sudo pip3 install detect_linux_distro
 
 * Example
 
-from detect_linux_distro.dld import dld
-my_linux_name = dld()
-my_linux_name.detect()
+    from detect_linux_distro.dld import dld
+    my_linux_name = dld()
+    my_linux_name.detect()
 
-my_linux_name.print_all_result()
+    my_linux_name.print_all_result()
 
-#my_linux_name.get_distro_id()
-#my_linux_name.print_all_result()
-~~~
+    #my_linux_name.get_distro_id()
+    #my_linux_name.get_distro_name()
+    #my_linux_name.get_distro_pretty_name()
+    #my_linux_name.print_all_result()
 
 * Install from source/git
 
@@ -43,10 +44,12 @@ sudo python setup.py install
     from detect_linux_distro.dld import dld
     my_linux_name = dld()
     my_linux_name.detect()
-    
+
     my_linux_name.print_all_result()
-    
+
     #my_linux_name.get_distro_id()
+    #my_linux_name.get_distro_name()
+    #my_linux_name.get_distro_pretty_name()
     #my_linux_name.print_all_result()
 
 4. run code
@@ -55,7 +58,7 @@ sudo python setup.py install
 or
     python test.py
 
-* It's tested on these distributions:
+* It's tested on these distributions
 * arch
 
 * note: probably it's work on all distribution, but i don't test.

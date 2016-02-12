@@ -8,12 +8,14 @@ Simple **python** 3 module/api to detect **linux distribution**.
     * Install from source/git
     * Step By Step example
 
-##Install On Linux  
-```sh
+##Install On Linux
+~~~bash
 sudo pip install detect_linux_distro
+~~~
 or
+~~~bash
 sudo pip3 install detect_linux_distro
-```
+~~~
 
 ##Example  
 ~~~python
@@ -41,7 +43,7 @@ sudo python setup.py install
 ~~~bash
     touch test.py
 ~~~
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. copy and past this code in test.py
+&nbsp;&nbsp;&nbsp;&nbsp;3. copy and past this code in test.py
 ~~~python
     from detect_linux_distro.dld import dld
     my_linux_name = dld()
@@ -52,11 +54,11 @@ sudo python setup.py install
     #my_linux_name.get_distro_id()
     #my_linux_name.print_all_result()
 ~~~
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. run code
+&nbsp;&nbsp;&nbsp;&nbsp;4. run code
 ~~~python
     python3 test.py
 ~~~
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
+&nbsp;&nbsp;&nbsp;&nbsp;or
 ~~~python
     python test.py
 ~~~

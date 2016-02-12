@@ -8,13 +8,13 @@ def read(file_name):
 
 setup(
 	name = "detect_linux_distro",
-	version = "1.2",
+	version = "1.3",
     author = "m.gh@linuxmail.org",
 	author_email = "m.gh@linuxmail.org",
 	description = "Detect linux distribution",
 	long_description = read("readme"),
 	license = read("license"),
 	keywords = "detect os linux distribution release",
-	url = "https://github.com/m-gh/detect_linux_distro",
+	url = "https://github.com/mlibre/detect_linux_distro",
 	packages = ["detect_linux_distro"],
 )

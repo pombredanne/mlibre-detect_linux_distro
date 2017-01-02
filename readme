@@ -1,14 +1,14 @@
 Simple python 3 module/api to detect Linux distribution.
 
-Table Of contents
------------------
+Table Of Contents
+-------------------------
 **** Install On Linux
 **** Example
 **** More
 ******** Install from source/git
 ******** Step By Step example
 **** Tested Distributions
-
+-------------------------------------
 
 **** Install On Linux
 
@@ -65,4 +65,4 @@ or
 **** Tested Distributions
 # arch
 
-note: probably it's work on all distribution, but i don't test.
+note: probably it's work on all distribution, but i did not test.

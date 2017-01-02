@@ -1,7 +1,7 @@
 #Detect Linux distribution
 Simple **python** 3 module/api to detect **Linux distribution**.
 
-##Table Of contents
+##Table Of Contents
 * Install On Linux
 * Example
 * More
@@ -70,4 +70,4 @@ sudo python setup.py install
 ##Tested Distributions
 * arch
 
->note: probably it's work on all distribution, but i don't test.
+>note: probably it's work on all distribution, but i did not test.
